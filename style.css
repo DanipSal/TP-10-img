@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kanit:wght@100&family=Lexend+Peta:wght@600&family=Montserrat:wght@300;400&family=Poppins:wght@200&family=Roboto:wght@100;300;400;700&family=Tektur&family=VT323&display=swap');
+/*font-family: 'VT323', monospace;*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    height: auto;
+    transition: all;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+body{
+    background-image: linear-gradient(90deg, hsl(260,59%,55%),hsl(311.429,59%,55%),hsl(2.857,59%,55%),hsl(54.286,59%,55%),hsl(105.714,59%,55%),hsl(157.143,59%,55%),hsl(208.571,59%,55%));
+    color:black;
+    
+}
+
+
+
+
+nav{
+width: 100%;
+height: 100px;
+display:flex;
+align-items: center;
+padding: 30px;
+
+
+
+
+
+
+}
+
+.img__logo{
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+    margin-right: auto;   
+
+
+
+}
+
+.lista__logo{        
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+  
+    
+}
+
+.lista__menu{
+    display: inline-block;
+    padding: 20px;     
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    background: hsla(337, 82%, 59%, 0.973);
+    border-radius: 45px;    
+    color:black;
+    border: 3px solid hsla(216, 82%, 59%, 0.973);
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.cuerpo{ 
+    
+    width: 100%;
+    height: 600px;  
+    
+  
+}
+
+h1{
+    font-family: 'VT323', monospace;      
+    font-size: 120px;  
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;    
+    color:black;
+   
+}
+
+div{
+    
+    width: 90%;
+    height: 500px;  
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    flex-direction: row-reverse; 
+    flex-wrap: wrap;
+    
+
+}
+
+.hombre__lente{
+    width: 50%;
+    height: 460px;     
+  
+
+}
+
+p {
+    font-family: 'VT323', monospace;
+    width: 50%;
+    height: auto;  
+    font-size: 45px;    
+    display: flex;
+    align-items: center;
+    
+}
+
+.btn__cuerpo{
+    height: 100px;    
+    display: flex;
+    align-items: center;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    background: hsla(337, 82%, 59%, 0.973);
+    border-radius: 45px;    
+    color:black;
+    border: 3px solid hsla(216, 82%, 59%, 0.973);
+
+}
+
+
+
+
+h2{
+    font-family: 'VT323', monospace;      
+    font-size: 80px;  
+    display:flex;
+    justify-content:left;
+    margin-top: 60px;   
+    margin-left: 20px; 
+    color:black;
+   
+}
+
+
+
+.artistas_invitados{
+    max-width:80%;
+    height:auto;
+    display:flex;   
+    flex-wrap: wrap;   
+    justify-content: center;    
+    list-style: none;
+    margin: 0 auto;
+    align-self: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+   
+    
+
+}
+
+.img_artista{
+    width: 400px;
+    height: auto;
+
+    
+    
+}
+
+.canciones{   
+    font-family: 'VT323', monospace;
+    width: auto;
+    height: 25px;  
+    font-size: 30px; 
+    margin-left: 100px;
+   
+   
+   
+}
+
+
+.caja__entradas{     
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+
+
+}
+
+
+.dia1__entradas{
+
+    width: 80%;
+    height: 150px;
+    border: 2px solid black;  
+    border-radius: 45px;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+   
+
+}
+
+.cd{
+    width: 100px;
+    height: 100px;
+    border: 3px solid hsla(216, 82%, 59%, 0.973);
+
+}
+
+.p__entradas{
+    font-family: 'VT323', monospace;
+    width: auto;
+    height: auto;  
+    font-size: 40px;     
+    
+}
+
+.btn__spoty{
+    width: auto;
+    height: 65px;
+    margin-right: 25px;
+  
+}
+
+
+.div_footer{
+    width: 80%;
+    height: 250px;    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px; 
+    
+  } 
+
+
+  .img__cd{
+    width: 100px;
+    height: 100px;
+
+  }
+
+  .letra__footer{
+    font-size: 25px;
+  }
+
+
+
+ 
